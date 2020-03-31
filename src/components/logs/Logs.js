@@ -5,7 +5,6 @@ import LogItem from './LogItem'
 import PropTypes from 'prop-types'
 import Preloader from '../layout/Preloader'
 import { getLogs } from '../../actions/logActions'
-
 const Logs = ({ log: { logs, loading }, getLogs }) => {
 
   useEffect(() => {
