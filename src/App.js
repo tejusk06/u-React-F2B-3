@@ -21,6 +21,7 @@ const App = () => {
   })
 
   return (
+    // Need to add only one provider for react
     <Provider store={store}>
       <Fragment>
         <SearchBar />
